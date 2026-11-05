@@ -1,15 +1,15 @@
 schema_version: 1
 
 context:
-  version: "0.1.2"
+  version: "0.1.3"
 
 package:
   name: vsp-otel
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/v/vsp-otel/vsp_otel-0.1.2.tar.gz
-  sha256: 88f3df63a9621c559204a22bb9723ffcc09c2324de5684301af91da457ac7d70
+  url: https://pypi.org/packages/source/v/vsp-otel/vsp_otel-${{ version }}.tar.gz
+  sha256: 1889ae46efee90b95a8b05dd15f25fb2cd544a2ddfb6733eaa02f28dcb7836bf
 
 build:
   noarch: python
